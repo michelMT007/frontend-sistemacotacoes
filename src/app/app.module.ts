@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardModule } from './dashboard/dashboard.module';
 import { SharedModule } from './shared/shared.module';
 import localePt from '@angular/common/locales/pt';
+import { StockCardComponent } from './dashboard/stock-card/stock-card.component';
 
 registerLocaleData(localePt);
 
@@ -15,11 +16,12 @@ registerLocaleData(localePt);
     AppComponent
   ],
   imports: [
-    
+
     BrowserModule,
     AppRoutingModule,
     DashboardModule,
-    SharedModule
+    SharedModule,
+    
   ],
   providers: [
     { provide: LOCALE_ID, useValue: 'pt-BR'}
