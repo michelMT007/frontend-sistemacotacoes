@@ -7,7 +7,7 @@ import Stock from '../../../src/app/shared/models/stock-model';
 })
 export class DashboardService {
 
-  readonly baseUrl = 'https://bootcamp-dio.herokuapp.com/bootcamp';
+  readonly baseUrl = 'https://sistema-cotacao-santander.herokuapp.com';
 
   constructor(private http: HttpClient) { }
 
