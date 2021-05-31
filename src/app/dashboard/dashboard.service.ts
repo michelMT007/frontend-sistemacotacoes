@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import Stock from '../shared/models/stock-model';
+import Stock from '../../../src/app/shared/models/stock-model';
 
 @Injectable({
   providedIn: 'root'
